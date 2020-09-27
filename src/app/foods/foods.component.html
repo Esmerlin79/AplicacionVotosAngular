@@ -1,0 +1,19 @@
+<div class="col-md-8 offset-md-2">
+  <div class="card text-center mt-4">
+       <div class="card-header">
+           <h3>{{foods.food}}</h3>
+           <p>{{foods.des}}</p>
+       </div>
+
+       <div class="card-body">
+        Points:
+        <h5 class="display-4">{{foods.votes}}</h5>
+       </div>
+
+       <div class="card-footer">
+        <button class="btn btn-primary" (click)="foods.voteUp()">👍</button>
+        <button class="btn btn-danger" (click)="foods.voteDown()">👎</button>   
+    </div>
+
+  </div>
+</div>

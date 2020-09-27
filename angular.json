@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "favorite-foods"
+    }
+  },
+  "defaultProject": "favorite-foods",
+  "cli": {
+    "analytics": false
+  }
 }
